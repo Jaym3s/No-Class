@@ -7,7 +7,15 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "No_ClassAppDelegate.h"
+#import "No_ClassViewController.h"
 
-@interface No_ClassTests : SenTestCase
+@interface No_ClassTests : SenTestCase {
+
+@private
+  No_ClassAppDelegate *app_delegate;
+  No_ClassViewController *view_controller;
+  UIView *first_view;
+}
 
 @end

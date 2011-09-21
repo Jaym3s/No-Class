@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface No_ClassViewController : UIViewController
+@interface No_ClassViewController : UIViewController {
+  id display_field;
+}
 
+@property (nonatomic, retain) IBOutlet id display_field;
 @end

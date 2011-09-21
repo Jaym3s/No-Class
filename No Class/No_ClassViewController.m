@@ -10,6 +10,8 @@
 
 @implementation No_ClassViewController
 
+@synthesize display_field;
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
